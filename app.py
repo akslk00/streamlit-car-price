@@ -15,9 +15,9 @@ def main():
 
     if choice == menu[0]:
         run_home_app()
-    if choice == menu[1]:
+    elif choice == menu[1]:
         run_eda_app()
-    if choice == menu[2]:
+    elif choice == menu[2]:
         run_ml_app()
 if __name__ == '__main__':
     main()
